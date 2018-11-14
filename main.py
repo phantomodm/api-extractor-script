@@ -7,6 +7,7 @@ bigConfig = {
     'store_hash': ''
 }
 
+fireBaseConfig = {}
 
 
 
