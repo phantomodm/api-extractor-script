@@ -7,14 +7,8 @@ bigConfig = {
     'store_hash': ''
 }
 
-fireBaseConfig = {
-  "apiKey": "",
-  "authDomain": "bc-firebase-db.firebaseapp.com",
-  "databaseURL": "https://bc-firebase-db.firebaseio.com",
-  "projectId": "bc-firebase-db",
-  "storageBucket": "",
-  "messagingSenderId": ""
-}
+
+
 
 # BC initialization
 api = bigcommerce.api.BigcommerceApi(client_id=bigConfig["client_id"], store_hash=bigConfig["store_hash"],access_token=bigConfig["client_token"])
